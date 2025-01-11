@@ -23,7 +23,6 @@ Thumbs.db
 *.code-workspace
 
 .vs/
-*.vcxproj
 *.vcxproj.user
 *.vcxproj.filters
 *.suo
