@@ -3,5 +3,6 @@
 
 void tirtiKopijavimaIrPerkelima();
 void tirtiIterptinesIrPaprastasFunkcijas();
+void tirtiRodykles();
 
 #endif

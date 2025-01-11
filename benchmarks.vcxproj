@@ -131,6 +131,7 @@
     <ClCompile Include="KopijavimasIrPerkelimas.cpp" />
     <ClCompile Include="Laikmatis.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="rodykles.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Eksperimentai.h" />
