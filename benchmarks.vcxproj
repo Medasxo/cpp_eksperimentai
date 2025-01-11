@@ -127,10 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="kopijavimas_pries_perkelima.cpp" />
+    <ClCompile Include="IterptinesIrPaprastosFunkcijos.cpp" />
+    <ClCompile Include="KopijavimasIrPerkelimas.cpp" />
     <ClCompile Include="Laikmatis.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Eksperimentai.h" />
     <ClInclude Include="Laikmatis.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
