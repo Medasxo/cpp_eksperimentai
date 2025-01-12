@@ -34,4 +34,12 @@ void tirtiparaleliniAlgoritma() {
         Laikmatis laikmatis;
         std::sort(std::execution::par, duomenys.begin(), duomenys.end());
     }
+
+    // Paralelinis rikiavimas su vektorizacija ir laiko matavimas
+    {
+        std::cout << "Paralelinis rikiavimas su vektorizacija" << std::endl;
+        Laikmatis laikmatis;
+        std::sort(std::execution::par_unseq, duomenys.begin(), duomenys.end());
+    }
+
 }

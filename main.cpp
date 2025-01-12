@@ -7,7 +7,7 @@ static void rodytiMeniu() {
     std::cout << "2. Iprastu ir iterptiniu funkciju palyginimas\n";
     std::cout << "3. Raw, unikaliu ir bendrintu rodykliu tyrimas\n";
     std::cout << "4. Lygiagretumo tyrimas\n";
-    std::cout << "5. Paralelinio ir algoritmo tyrimas\n";
+    std::cout << "5. Paralelinio algoritmo tyrimas\n";
     std::cout << "Pasirinkite:";
 }
 
