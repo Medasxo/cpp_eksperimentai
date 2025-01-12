@@ -20,6 +20,7 @@ void tirtiparaleliniAlgoritma() {
     }
 
     std::vector<int> duomenysSekvenciniam = duomenys;
+    std::vector<int> duomenuKopija = duomenys;
 
     // Sekvencinis rikiavimas ir laiko matavimas
     {
@@ -39,7 +40,7 @@ void tirtiparaleliniAlgoritma() {
     {
         std::cout << "Paralelinis rikiavimas su vektorizacija" << std::endl;
         Laikmatis laikmatis;
-        std::sort(std::execution::par_unseq, duomenys.begin(), duomenys.end());
+        std::sort(std::execution::par_unseq, duomenuKopija.begin(), duomenuKopija.end());
     }
 
 }
