@@ -6,7 +6,8 @@ static void rodytiMeniu() {
     std::cout << "1. Kopijavimo ir perkelimo efektyvumo tyrimas\n";
     std::cout << "2. Iprastu ir iterptiniu funkciju palyginimas\n";
     std::cout << "3. Raw, unikaliu ir bendrintu rodykliu tyrimas\n";
-    std::cout << "4. Paralelinio ir algoritmo tyrimas\n";
+    std::cout << "4. Lygiagretumo tyrimas\n";
+    std::cout << "5. Paralelinio ir algoritmo tyrimas\n";
     std::cout << "Pasirinkite:";
 }
 
@@ -29,6 +30,9 @@ int main() {
             tirtiRodykles();
             break;
         case 4:
+            tirtiLygiagretuma();
+            break;
+        case 5:
             tirtiparaleliniAlgoritma();
             break;
         default:

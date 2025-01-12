@@ -4,6 +4,7 @@
 void tirtiKopijavimaIrPerkelima();
 void tirtiIterptinesIrPaprastasFunkcijas();
 void tirtiRodykles();
+void tirtiLygiagretuma();
 void tirtiparaleliniAlgoritma();
 
 #endif

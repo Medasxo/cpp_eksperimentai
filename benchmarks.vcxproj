@@ -131,6 +131,7 @@
     <ClCompile Include="IterptinesIrPaprastosFunkcijos.cpp" />
     <ClCompile Include="KopijavimasIrPerkelimas.cpp" />
     <ClCompile Include="Laikmatis.cpp" />
+    <ClCompile Include="Lygiagretumas.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ParalelinioAlgoritmoVykdymas.cpp" />
     <ClCompile Include="Rodykles.cpp" />
