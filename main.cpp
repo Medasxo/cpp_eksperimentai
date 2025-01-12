@@ -8,6 +8,7 @@ static void rodytiMeniu() {
     std::cout << "3. Raw, unikaliu ir bendrintu rodykliu tyrimas\n";
     std::cout << "4. Lygiagretumo tyrimas\n";
     std::cout << "5. Paralelinio algoritmo tyrimas\n";
+    std::cout << "6. Duomenu strukturu (vector, deque, list) palyginimas\n";
     std::cout << "Pasirinkite:";
 }
 
@@ -35,6 +36,9 @@ int main() {
         case 5:
             tirtiparaleliniAlgoritma();
             break;
+        case 6:
+            tirtiDuomenuStrukturas();
+            break;            
         default:
             std::cout << "\nNetinkamas pasirinkimas. Bandykite dar karta.\n";
         }

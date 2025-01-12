@@ -6,5 +6,6 @@ void tirtiIterptinesIrPaprastasFunkcijas();
 void tirtiRodykles();
 void tirtiLygiagretuma();
 void tirtiparaleliniAlgoritma();
+void tirtiDuomenuStrukturas();
 
 #endif

@@ -129,6 +129,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DuomenųStrukturos.cpp" />
     <ClCompile Include="IterptinesIrPaprastosFunkcijos.cpp" />
     <ClCompile Include="KopijavimasIrPerkelimas.cpp" />
     <ClCompile Include="Laikmatis.cpp" />
