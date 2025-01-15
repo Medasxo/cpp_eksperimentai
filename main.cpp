@@ -14,6 +14,7 @@ static void rodytiMeniu() {
     std::cout << "7. Vektoriu naudojimo pavyzdys\n";
     std::cout << "8. Vektoriaus perkelimo pavyzdys\n";
     std::cout << "9. Giju kurimo pavyzdys\n";
+    std::cout << "10. Asinchroninio vykdymo pavyzdys\n";
     std::cout << "\nPasirinkite:";
 }
 
@@ -52,6 +53,9 @@ int main() {
             break;
         case 9:
             paleistiGijuKurimoPavyzdi();
+            break;
+        case 10:
+            paleistiAsinchroninioVykdymoPavyzdi();
             break;
         default:
             std::cout << "\nNetinkamas pasirinkimas. Bandykite dar karta.\n";
