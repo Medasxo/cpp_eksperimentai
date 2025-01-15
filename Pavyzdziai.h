@@ -6,5 +6,6 @@ void paleistiVektoriausPerkelimoPavyzdi();
 void paleistiGijuKurimoPavyzdi();
 void paleistiAsinchroninioVykdymoPavyzdi();
 void paleistiLygiagreciuAlgoritmuPavyzdi();
+void paleistiAtominiuRezultatuPavyzdi();
 
 #endif
