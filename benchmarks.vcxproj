@@ -131,6 +131,7 @@
   <ItemGroup>
     <ClCompile Include="DuomenųStrukturos.cpp" />
     <ClCompile Include="IterptinesIrPaprastosFunkcijos.cpp" />
+    <ClCompile Include="VektoriuNaudojimoPvz.cpp" />
     <ClCompile Include="KopijavimasIrPerkelimas.cpp" />
     <ClCompile Include="Laikmatis.cpp" />
     <ClCompile Include="Lygiagretumas.cpp" />
@@ -141,6 +142,7 @@
   <ItemGroup>
     <ClInclude Include="Eksperimentai.h" />
     <ClInclude Include="Laikmatis.h" />
+    <ClInclude Include="Pavyzdziai.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

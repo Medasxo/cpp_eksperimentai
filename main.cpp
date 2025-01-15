@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include "Eksperimentai.h"
+#include "Pavyzdziai.h"
 
 static void rodytiMeniu() {
     std::cout << "\nPasirinkite eksperimenta:\n";
@@ -9,6 +10,8 @@ static void rodytiMeniu() {
     std::cout << "4. Lygiagretumo tyrimas\n";
     std::cout << "5. Paralelinio algoritmo tyrimas\n";
     std::cout << "6. Duomenu strukturu (vector, deque, list) palyginimas\n";
+    std::cout << "\nPasirinkite pavyzdi:\n";
+    std::cout << "7. Vektoriu naudojimo pavyzdys\n";
     std::cout << "Pasirinkite:";
 }
 
@@ -38,7 +41,11 @@ int main() {
             break;
         case 6:
             strukturuPalyginimas();
-            break;            
+            break; 
+        case 7:
+            paleistiVektoriuNaudojimoPavyzdi();
+            break;
+
         default:
             std::cout << "\nNetinkamas pasirinkimas. Bandykite dar karta.\n";
         }
