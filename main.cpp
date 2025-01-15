@@ -12,7 +12,8 @@ static void rodytiMeniu() {
     std::cout << "6. Duomenu strukturu (vector, deque, list) palyginimas\n";
     std::cout << "\nPasirinkite pavyzdi:\n";
     std::cout << "7. Vektoriu naudojimo pavyzdys\n";
-    std::cout << "Pasirinkite:";
+    std::cout << "8. Vektoriaus perkelimo pavyzdys\n";
+    std::cout << "\nPasirinkite:";
 }
 
 int main() {
@@ -45,7 +46,9 @@ int main() {
         case 7:
             paleistiVektoriuNaudojimoPavyzdi();
             break;
-
+        case 8:
+            paleistiVektoriausPerkelimoPavyzdi();
+            break;
         default:
             std::cout << "\nNetinkamas pasirinkimas. Bandykite dar karta.\n";
         }

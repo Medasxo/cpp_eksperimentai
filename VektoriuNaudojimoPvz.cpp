@@ -1,8 +1,8 @@
 ﻿#include <vector>
 #include <iostream>
 
-// Sukuriame vektoriu, kuriame laikomi skaiciai
 void paleistiVektoriuNaudojimoPavyzdi() {
+	// Sukuriame vektoriu, kuriame laikomi skaiciai
 	std::vector<int> skaiciai = { 1, 2, 3, 4, 5 };
 	// Pridedame skaiciu 6 i vektoriu (atminties valdymas atliekamas automatiskai)
 	skaiciai.push_back(6);
