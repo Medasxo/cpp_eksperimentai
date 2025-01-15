@@ -37,7 +37,7 @@ int main() {
             tirtiparaleliniAlgoritma();
             break;
         case 6:
-            tirtiDuomenuStrukturas();
+            strukturuPalyginimas();
             break;            
         default:
             std::cout << "\nNetinkamas pasirinkimas. Bandykite dar karta.\n";

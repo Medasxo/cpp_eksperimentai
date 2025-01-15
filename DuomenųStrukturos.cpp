@@ -2,66 +2,74 @@
 #include <vector>
 #include <deque>
 #include <list>
-#include <algorithm>
+#include "Eksperimentai.h"
 #include "Laikmatis.h"
-#include <iterator>
+
+const int DYDIS = 10000;
 
 template <typename Container>
-void duomenuStrukturosMatavimas(size_t data_size) {
-    Container konteineris(data_size, 0);
-
+void iterpimoOperacijos(const std::string& container_name) {
     {
-        std::cout << "Iterpimas pradzioje\n";
+
+        Container konteineris;
+        for (int i = 0; i < DYDIS; ++i) {
+            konteineris.insert(konteineris.end(), i);
+        }
+
+        std::cout << "Iterpimas pradzioje" << std::endl;;
+
         Laikmatis laikmatis;
-        for (size_t i = 0; i < 10000; ++i) {
+        for (int i = 0; i < DYDIS; ++i) {
             konteineris.insert(konteineris.begin(), i);
         }
     }
 
     {
-        std::cout << "Iterpimas viduryje\n";
+        Container konteineris;
+        for (int i = 0; i < DYDIS; ++i) {
+            konteineris.insert(konteineris.end(), i);
+        }
+
+        std::cout << "Iterpimas viduryje" << std::endl;;
+
         Laikmatis laikmatis;
-        for (size_t i = 0; i < 10000; ++i) {
-            auto mid = konteineris.begin();
-            std::advance(mid, konteineris.size() / 2);
-            konteineris.insert(mid, i);
+        for (int i = 0; i < DYDIS; ++i) {
+            if constexpr (std::is_same<Container, std::list<int>>::value) {
+                auto vidurys = std::next(konteineris.begin(), konteineris.size() / 2);
+                konteineris.insert(vidurys, i);
+            }
+            else {
+                konteineris.insert(konteineris.begin() + konteineris.size() / 2, i);
+            }
         }
     }
 
     {
-        std::cout << "Iterpimas pabaigoje\n";
-        Laikmatis laikmatis;
-        for (size_t i = 0; i < 10000; ++i) {
-            konteineris.push_back(i);
+        Container konteineris;
+        for (int i = 0; i < DYDIS; ++i) {
+            konteineris.insert(konteineris.end(), i);
         }
-    }
 
-    {
-        std::cout << "Trinimas pradzioje\n";
-        Laikmatis laikmatis;
-        for (size_t i = 0; i < 10000; ++i) {
-            konteineris.erase(konteineris.begin());
-        }
-    }
+        std::cout << "Iterpimas pabaigoje" << std::endl;;
 
-    {
-        std::cout << "Paieska\n";
         Laikmatis laikmatis;
-        for (size_t i = 0; i < 10000; ++i) {
-            auto it = std::find(konteineris.begin(), konteineris.end(), i);
+        for (int i = 0; i < DYDIS; ++i) {
+            konteineris.insert(konteineris.end(), i);
         }
     }
+    std::cout << "\n";
 }
 
-void tirtiDuomenuStrukturas() {
-    size_t duomenuDydis = 1e6;
-
+void strukturuPalyginimas() {
+    // Matavimas std::vector
     std::cout << "Matavimas std::vector: " << std::endl;
-    duomenuStrukturosMatavimas<std::vector<int>>(duomenuDydis);
+    iterpimoOperacijos<std::vector<int>>("std::vector");
 
+    // Matavimas std::deque
     std::cout << "Matavimas std::deque: " << std::endl;
-    duomenuStrukturosMatavimas<std::deque<int>>(duomenuDydis);
+    iterpimoOperacijos<std::deque<int>>("std::deque");
 
+    // Matavimas std::list
     std::cout << "Matavimas std::list: " << std::endl;
-    duomenuStrukturosMatavimas<std::list<int>>(duomenuDydis);
+    iterpimoOperacijos<std::list<int>>("std::list");
 }
