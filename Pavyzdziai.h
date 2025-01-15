@@ -3,5 +3,6 @@
 
 void paleistiVektoriuNaudojimoPavyzdi();
 void paleistiVektoriausPerkelimoPavyzdi();
+void paleistiGijuKurimoPavyzdi();
 
 #endif

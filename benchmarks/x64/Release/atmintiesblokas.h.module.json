@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "benchmarks\\x64\\Release\\AtmintiesBlokas.h.obj",
+            "outputs": [
+                "C:\\Users\\Medas\\source\\repos\\benchmarks\\benchmarks\\x64\\Release\\vc143.pdb",
+                "benchmarks\\x64\\Release\\",
+                "C:\\Users\\Medas\\source\\repos\\benchmarks\\benchmarks\\x64\\Release\\AtmintiesBlokas.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "AtmintiesBlokas.h",
+                    "source-path": "c:\\users\\medas\\source\\repos\\benchmarks\\atmintiesblokas.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

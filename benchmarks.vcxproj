@@ -130,7 +130,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DuomenųStrukturos.cpp" />
+    <ClCompile Include="GijuKurimoPvz.cpp" />
     <ClCompile Include="IterptinesIrPaprastosFunkcijos.cpp" />
+    <ClCompile Include="AtmintiesBlokas.h" />
     <ClCompile Include="VektoriausPerkelimoPvz.cpp" />
     <ClCompile Include="VektoriuNaudojimoPvz.cpp" />
     <ClCompile Include="KopijavimasIrPerkelimas.cpp" />
