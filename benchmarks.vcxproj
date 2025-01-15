@@ -136,6 +136,7 @@
     <ClCompile Include="IterptinesIrPaprastosFunkcijos.cpp" />
     <ClCompile Include="AtmintiesBlokas.h" />
     <ClCompile Include="LygiagreciuAlgoritmuPvz.cpp" />
+    <ClCompile Include="SharedPtrPvz.cpp" />
     <ClCompile Include="VektoriausPerkelimoPvz.cpp" />
     <ClCompile Include="VektoriuNaudojimoPvz.cpp" />
     <ClCompile Include="KopijavimasIrPerkelimas.cpp" />

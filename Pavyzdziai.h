@@ -7,5 +7,6 @@ void paleistiGijuKurimoPavyzdi();
 void paleistiAsinchroninioVykdymoPavyzdi();
 void paleistiLygiagreciuAlgoritmuPavyzdi();
 void paleistiAtominiuRezultatuPavyzdi();
+void paleistiSharedPtrPavyzdi();
 
 #endif
