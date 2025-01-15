@@ -131,6 +131,7 @@
   <ItemGroup>
     <ClCompile Include="AsinchroninioVykdymoPvz.cpp" />
     <ClCompile Include="AtominiuRezultatuPvz.cpp" />
+    <ClCompile Include="DidelioMasyvoPadalijimoPvz.cpp" />
     <ClCompile Include="DuomenųStrukturos.cpp" />
     <ClCompile Include="GijuKurimoPvz.cpp" />
     <ClCompile Include="IterptinesFunkcijosPvz.cpp" />

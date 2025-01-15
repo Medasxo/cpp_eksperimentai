@@ -19,6 +19,7 @@ static void rodytiMeniu() {
     std::cout << "12. Atominiu rezultatu pavyzdys\n";
     std::cout << "13. Shared_ptr pavyzdys\n";
     std::cout << "14. Iterptines funkcijos pavyzdys\n";
+    std::cout << "15. Didelio masyvo padalijimo pavyzdys\n";
     std::cout << "\nPasirinkite:";
 }
 
@@ -72,6 +73,9 @@ int main() {
             break;
         case 14:
             paleistiIterptinesFunkcijosPavyzdi();
+            break;
+        case 15:
+            paleistiDidelioMasyvoPadalijimoPavyzdi();
             break;
         default:
             std::cout << "\nNetinkamas pasirinkimas. Bandykite dar karta.\n";
