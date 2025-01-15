@@ -8,5 +8,6 @@ void paleistiAsinchroninioVykdymoPavyzdi();
 void paleistiLygiagreciuAlgoritmuPavyzdi();
 void paleistiAtominiuRezultatuPavyzdi();
 void paleistiSharedPtrPavyzdi();
+void paleistiIterptinesFunkcijosPavyzdi();
 
 #endif

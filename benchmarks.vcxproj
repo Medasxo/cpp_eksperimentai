@@ -133,6 +133,7 @@
     <ClCompile Include="AtominiuRezultatuPvz.cpp" />
     <ClCompile Include="DuomenųStrukturos.cpp" />
     <ClCompile Include="GijuKurimoPvz.cpp" />
+    <ClCompile Include="IterptinesFunkcijosPvz.cpp" />
     <ClCompile Include="IterptinesIrPaprastosFunkcijos.cpp" />
     <ClCompile Include="AtmintiesBlokas.h" />
     <ClCompile Include="LygiagreciuAlgoritmuPvz.cpp" />
